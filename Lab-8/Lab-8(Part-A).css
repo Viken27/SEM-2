@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    height: 170px;
+    width: auto;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.navlogo{
+    height: 80px;
+    width: 600px;
+}
+
+.logo{
+    background-image: url("https://darshan.ac.in/Content/media/DU_Logo.svg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin: 5px;
+}
+
+.home{
+    width: 40%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin: 30px 50px 30px 500px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    background-color: chartreuse;
+    background-image: url("https://images.thequint.com/thequint/2019-04/6c891ab4-d8dd-490a-a66c-dc544cc65d97/avengers_infinity_war_and_endgame_poster_w7_1600x900.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.box{
+    display: flex;
+}
+
+.program{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    border: 1px solid black;
+    margin: 50px;
+    text-align: center;
+}
+
+.hello{
+    background-color: chartreuse;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+
+}

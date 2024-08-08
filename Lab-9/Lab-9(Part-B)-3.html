@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            width: 100%;
+        }
+        .raimbow {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            float: left;
+            display: flex;
+            margin: 20px;
+            align-items: center;
+            justify-content: center;
+            animation-name: box;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+
+        .rainbow1 {
+            background-color: red;
+            animation-delay: 1s;
+            /* animation-name: rainbow; */
+
+        }
+        .rainbow2 {
+            background-color: orange;
+            animation-delay: 2s;
+            /* animation-name: rainbow; */
+        }
+        .rainbow3 {
+            background-color: yellow;
+            animation-delay: 3s;
+            /* animation-name: rainbow; */
+        }
+        .rainbow4 {
+            background-color: green;
+            animation-delay: 4s;
+            /* animation-name: rainbow; */
+        }
+        .rainbow5 {
+            background-color: blue;
+            animation-delay: 5s;
+            /* animation-name: rainbow */
+        }
+        .rainbow6 {
+            background-color: indigo;
+            animation-delay: 6s;
+            /* animation-name: rainbow */
+        }
+        .rainbow7 {
+            background-color: violet;
+            animation-delay: 7s;
+            /* animation-name: rainbow */
+        }
+        
+        @keyframes box {
+            form{
+                border-radius: 0px;
+                margin: 0px;
+            }
+            to{
+                border-radius: 50%;
+                margin-top: 500px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="rainbow1 raimbow"></div>
+    <div class="rainbow2 raimbow"></div>
+    <div class="rainbow3 raimbow"></div>
+    <div class="rainbow4 raimbow"></div>
+    <div class="rainbow5 raimbow"></div>
+    <div class="rainbow6 raimbow"></div>
+    <div class="rainbow7 raimbow"></div>
+
+</body>
+
+</html>

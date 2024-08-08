@@ -1,0 +1,159 @@
+<style>
+    /* Define the colors and gradients for each icon */
+    .icon1 {
+      background: linear-gradient(45deg, #ff00ff, #00ffff);
+    }
+  
+    .icon2 {
+      background: linear-gradient(135deg, #ff0000, #ffff00);
+    }
+  
+    .icon3 {
+      background: linear-gradient(225deg, #00ff00, #ff00ff);
+    }
+  
+    .icon4 {
+      background: linear-gradient(315deg, #0000ff, #00ff00);
+    }
+  
+    .icon5 {
+      background: linear-gradient(45deg, #ffff00, #0000ff);
+    }
+  
+    .icon6 {
+      background: linear-gradient(135deg, #00ffff, #ff0000);
+    }
+  
+    .icon7 {
+      background: linear-gradient(225deg, #ff00ff, #00ff00);
+    }
+  
+    .icon8 {
+      background: linear-gradient(315deg, #ffff00, #ff00ff);
+    }
+  
+    .icon9 {
+      background: linear-gradient(45deg, #00ff00, #0000ff);
+    }
+  
+    .icon10 {
+      background: linear-gradient(135deg, #0000ff, #ffff00);
+    }
+  
+    .icon11 {
+      background: linear-gradient(225deg, #ffff00, #00ffff);
+    }
+  
+    .icon12 {
+      background: linear-gradient(315deg, #ff0000, #00ff00);
+    }
+  
+    /* Define the common properties for all icons */
+    .icon {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    /* Define the animation keyframes for the icons */
+    @keyframes move {
+      0% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+      50% {
+        transform: translate(10px, -10px) rotate(10deg);
+      }
+      100% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+    }
+  
+    /* Apply the animation to the icons with different durations and delays */
+    .icon1 {
+      animation: move 2s infinite;
+    }
+  
+    .icon2 {
+      animation: move 2s infinite;
+      animation-delay: 0.2s;
+    }
+  
+    .icon3 {
+      animation: move 2s infinite;
+      animation-delay: 0.4s;
+    }
+  
+    .icon4 {
+      animation: move 2s infinite;
+      animation-delay: 0.6s;
+    }
+  
+    .icon5 {
+      animation: move 2s infinite;
+      animation-delay: 0.8s;
+    }
+  
+    .icon6 {
+      animation: move 2s infinite;
+      animation-delay: 1s;
+    }
+  
+    .icon7 {
+      animation: move 2s infinite;
+      animation-delay: 1.2s;
+    }
+  
+    .icon8 {
+      animation: move 2s infinite;
+      animation-delay: 1.4s;
+    }
+  
+    .icon9 {
+      animation: move 2s infinite;
+      animation-delay: 1.6s;
+    }
+  
+    .icon10 {
+      animation: move 2s infinite;
+      animation-delay: 1.8s;
+    }
+  
+    .icon11 {
+      animation: move 2s infinite;
+      animation-delay: 2s;
+    }
+  
+    .icon12 {
+      animation: move 2s infinite;
+      animation-delay: 2.2s;
+    }
+  
+    /* Define the container for the grid of icons */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 400px;
+      background-color: #000033;
+    }
+  </style>
+  
+  <div class="container">
+    <div class="icon icon1"></div>
+    <div class="icon icon2"></div>
+    <div class="icon icon3"></div>
+    <div class="icon icon4"></div>
+    <div class="icon icon5"></div>
+    <div class="icon icon6"></div>
+    <div class="icon icon7"></div>
+    <div class="icon icon8"></div>
+    <div class="icon icon9"></div>
+    <div class="icon icon10"></div>
+    <div class="icon icon11"></div>
+    <div class="icon icon12"></div>
+  </div>
+  

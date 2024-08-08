@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    /* border: border-box; */
+    font-family: "Audiowide", sans-serif;
+}
+
+.maindiv{
+    width: 90%px;
+    height: 1200px;
+    background-color: cadetblue;
+
+    /* border-style: solid;
+    border-image-width: 75px;
+    border-image: url("https://t4.ftcdn.net/jpg/04/16/81/11/360_F_416811105_j6zRjjgIAXenFypJpXx8VwbyIiJTEa4n.jpg");
+    border-image-slice: 100;
+    border-image-repeat: repeat; */
+
+    border: 75px solid;
+    /* padding: 10px; */
+    border-image-source: linear-gradient(45deg, red, yellow, blue);
+    border-image-slice: 50;
+}
+
+
+.div1{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/476/615/727/abstract-blue-yellow-red-wallpaper-preview.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    background-image: url("a.jpg");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.home{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.entersearch{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.enter{
+    height: 35px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+}
+
+.search{
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+
+.i{
+    display: flex;
+
+}
+.hi{
+    color: white;
+    font-size: 25px;
+    margin-top: 12px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+.kush{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 220px;
+    top: 200px;
+    box-shadow: 8px 8px 5px rgb(66, 50, 50);
+    text-shadow: 3px 3px 10px white;
+}
+
+.designer{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 150px;
+    top: 260px;
+}
+
+.love{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 150px;
+    top: 310px;
+}
+
+.hire{
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+}
+
+
+
+.div2{
+    width: 100%;
+    height: 600px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.paypal{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/07/PayPal-Logo.png");
+    background-size: cover;
+    height: 71px;
+    width: 130px;
+}
+
+.google{
+    background-image: url("https://pngimg.com/d/google_PNG19641.png");
+    background-size: cover;
+    height: 52px;
+    width: 126px;
+}
+
+.samsung{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png");
+    background-size: cover;
+    height: 41px;
+    width: 124px;
+}
+
+.lenovo{
+    background-image: url("https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1.png");
+    background-size: cover;
+    height: 72px;
+    width: 124px;
+}
+
+.amazon{
+    background-image: url("https://banner2.cleanpng.com/20180721/tbz/kisspng-amazon-com-brand-logo-e-commerce-customer-international-volunteering-5b534dc6015e31.6273062615321860540056.jpg");
+    background-size: cover;
+    height: 52px;
+    width: 120px;
+}
+
+
+
+
+.ex101{
+    position: absolute;
+    left: 200px;
+    top: 850px;
+    font-size: 100px;
+}
+
+.year{
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+    font-size: 25px;
+}
+
+.iam{
+    position: absolute;
+    left: 600px;
+    top: 850px;
+    font-size: 27px;
+}
+
+.first{
+    background-color: black;
+    position: absolute;
+    left: 600px;
+    top: 950px;
+    height: 250px;
+    width: 210px;
+    border-radius: 10px;
+}
+.creative{
+    color: white;
+    position: absolute;
+    left: 610px;
+    top: 1110px;
+    font-size: 20px;
+}
+.explore{
+    color: white;
+    position: absolute;
+    left: 610px;
+    top: 1150px;
+    font-size: 15px;
+}
+
+.img1{
+    background-image: url("https://www.shutterstock.com/image-vector/flat-light-bulb-icon-long-260nw-350746130.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 52px;
+    position: relative;
+    left: 550px;
+    top: 270px;
+}
+
+
+
+.second{
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 840px;
+    top: 950px;
+    height: 250px;
+    width: 210px;
+    border-radius: 10px;
+}
+.web{
+    color: black;
+    position: absolute;
+    left: 850px;
+    top: 1110px;
+    font-size: 20px;
+}
+
+.img2{
+    background-image: url("https://cdn.pixabay.com/photo/2012/04/14/14/21/laptop-34098_640.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 788px;
+    top: 227px;
+}
+
+
+
+
+.third{
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 1080px;
+    top: 950px;
+    height: 250px;
+    width: 210px;
+    border-radius: 10px;
+}
+.brand{
+    color: black;
+    position: absolute;
+    left: 1090px;
+    top: 1110px;
+    font-size: 20px;
+}
+
+.img3{
+    background-image: url("https://imagimotive.com/wp-content/uploads/2017/10/red-pencil-icon.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 1026px;
+    top: 177px;
+}
